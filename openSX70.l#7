@@ -2477,9 +2477,14 @@ Source: murata.co.jp</description>
 </deviceset>
 <deviceset name="DZ2J33X0L">
 <gates>
+<gate name="G$1" symbol="DIODE-ZENER" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SMINI2">
+<connects>
+<connect gate="G$1" pin="A" pad="P$2"/>
+<connect gate="G$1" pin="C" pad="P$1"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
