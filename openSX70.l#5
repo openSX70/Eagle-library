@@ -377,8 +377,8 @@
 <wire x1="-5.1286" y1="-3.0935" x2="-4.2094" y2="-2.1742" width="0.127" layer="1"/>
 <wire x1="-4.2094" y1="-2.1742" x2="-2.8659" y2="-3.5177" width="0.001" layer="1"/>
 <wire x1="-2.8659" y1="-3.5177" x2="-3.7851" y2="-4.437" width="0.001" layer="1"/>
-<smd name="DUMMY2" x="-3.99" y="-3.29" dx="1.9" dy="1.3" layer="1" rot="R135"/>
-<smd name="+" x="3.0536" y="-3.1143" dx="1.8796" dy="0.6858" layer="1" rot="R225" stop="no" thermals="no" cream="no"/>
+<smd name="BUZZER-3" x="-3.99" y="-3.29" dx="1.9" dy="1.3" layer="1" rot="R135"/>
+<smd name="BUZZER+" x="3.0536" y="-3.1143" dx="1.8796" dy="0.6858" layer="1" rot="R225" stop="no" thermals="no" cream="no"/>
 <polygon width="0.001" layer="1">
 <vertex x="2.1355" y="-3.5365"/>
 <vertex x="3.4788" y="-2.1937"/>
@@ -403,8 +403,7 @@
 <vertex x="-3.3675" y="4.6703"/>
 <vertex x="-2.8769" y="4.1792"/>
 </polygon>
-<smd name="GND" x="3.0509" y="3.7423" dx="1.8796" dy="0.6858" layer="1" rot="R315" stop="no" cream="no"/>
-<smd name="DUMMY1" x="-3.7861" y="3.7456" dx="1.8796" dy="0.6858" layer="1" rot="R45" stop="no" thermals="no" cream="no"/>
+<smd name="BUZZER-" x="3.0509" y="3.7423" dx="1.8796" dy="0.6858" layer="1" rot="R315" stop="no" cream="no"/>
 <wire x1="-4.7124" y1="2.9247" x2="-3.0792" y2="4.6693" width="0.127" layer="21"/>
 <wire x1="-3.0792" y1="4.6693" x2="2.3145" y2="4.6693" width="0.127" layer="21"/>
 <wire x1="2.3145" y1="4.6693" x2="2.3183" y2="4.6655" width="0.127" layer="21"/>
@@ -500,6 +499,7 @@
 <vertex x="2.032" y="-3.5433"/>
 <vertex x="2.0193" y="-3.5433"/>
 </polygon>
+<smd name="BUZZER-2" x="-3.7423" y="3.7494" dx="1.8796" dy="0.6858" layer="1" rot="R45" stop="no" cream="no"/>
 </package>
 <package name="SOT223">
 <smd name="1" x="-3.0988" y="2.3114" dx="1.2192" dy="2.2352" layer="1" rot="R270"/>
@@ -1973,8 +1973,8 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <devices>
 <device name="" package="CSET8-5G_PACKAGE">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="GND"/>
+<connect gate="G$1" pin="+" pad="BUZZER+"/>
+<connect gate="G$1" pin="-" pad="BUZZER-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2559,8 +2559,8 @@ Source: murata.co.jp</description>
 <devices>
 <device name="" package="CSET8-5G_PACKAGE">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="GND"/>
+<connect gate="G$1" pin="+" pad="BUZZER+"/>
+<connect gate="G$1" pin="-" pad="BUZZER-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2626,6 +2626,14 @@ Source: murata.co.jp</description>
 </gates>
 <devices>
 <device name="" package="H2X3-2.54">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="MISO" pad="1"/>
+<connect gate="G$1" pin="MOSI" pad="5"/>
+<connect gate="G$1" pin="RST" pad="3"/>
+<connect gate="G$1" pin="SCK" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

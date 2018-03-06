@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.1">
+<eagle version="8.6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="2.5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -228,12 +228,12 @@
 <wire x1="-1.9" y1="-1.15" x2="-1.9" y2="1.15" width="0.127" layer="39"/>
 <text x="-1.951940625" y="1.301290625" size="1.271259375" layer="25">&gt;NAME</text>
 <text x="-2.00275" y="-2.35323125" size="1.271740625" layer="27">&gt;VALUE</text>
-<smd name="1" x="-1.375" y="0.525" dx="0.55" dy="0.3" layer="1"/>
-<smd name="2" x="-1.375" y="0" dx="0.55" dy="0.25" layer="1"/>
-<smd name="3" x="-1.375" y="-0.5" dx="0.55" dy="0.25" layer="1"/>
-<smd name="4" x="1.375" y="-0.5" dx="0.55" dy="0.25" layer="1"/>
-<smd name="5" x="1.375" y="0" dx="0.55" dy="0.25" layer="1"/>
-<smd name="6" x="1.375" y="0.5" dx="0.55" dy="0.25" layer="1"/>
+<smd name="1" x="-1.4512" y="0.525" dx="0.7024" dy="0.3" layer="1"/>
+<smd name="2" x="-1.4512" y="0" dx="0.7024" dy="0.25" layer="1"/>
+<smd name="3" x="-1.4512" y="-0.5" dx="0.7024" dy="0.25" layer="1"/>
+<smd name="4" x="1.4512" y="-0.5" dx="0.7024" dy="0.25" layer="1"/>
+<smd name="5" x="1.4512" y="0" dx="0.7024" dy="0.25" layer="1"/>
+<smd name="6" x="1.4512" y="0.5" dx="0.7024" dy="0.25" layer="1"/>
 <wire x1="-0.0056" y1="0.396359375" x2="-0.083640625" y2="0.38866875" width="0" layer="51"/>
 <wire x1="-0.083640625" y1="0.38866875" x2="-0.15866875" y2="0.365909375" width="0" layer="51"/>
 <wire x1="-0.15866875" y1="0.365909375" x2="-0.22783125" y2="0.32895" width="0" layer="51"/>
@@ -2660,6 +2660,17 @@ Source: murata.co.jp</description>
 <attribute name="MPN" value="P125-12A1BS116A1" constant="no"/>
 <attribute name="VALUE" value="2x3p-2.54" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHEAD">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
