@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
+<<<<<<< HEAD
 <eagle version="9.0.0">
+=======
+<eagle version="8.6.3">
+>>>>>>> 650c0e2e0b646a35012235e1e33001092cb6f053
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2870,6 +2874,7 @@ Source: murata.co.jp</description>
 </device>
 </devices>
 </deviceset>
+<<<<<<< HEAD
 <deviceset name="SW-C16" prefix="SW" uservalue="yes">
 <description>&lt;b&gt;SWITCH&lt;/b&gt;&lt;p&gt;
 16-step rotary switch</description>
@@ -2900,6 +2905,13 @@ Source: murata.co.jp</description>
 </gates>
 <devices>
 <device name="" package="CTS221AMX16">
+=======
+<deviceset name="PINHEAD">
+<gates>
+</gates>
+<devices>
+<device name="">
+>>>>>>> 650c0e2e0b646a35012235e1e33001092cb6f053
 <technologies>
 <technology name=""/>
 </technologies>

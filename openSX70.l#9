@@ -2626,6 +2626,7 @@ Source: murata.co.jp</description>
 </gates>
 <devices>
 <device name="" package="H2X3-2.54">
+<<<<<<< HEAD
 <connects>
 <connect gate="G$1" pin="GND" pad="4"/>
 <connect gate="G$1" pin="MISO" pad="1"/>
@@ -2634,6 +2635,8 @@ Source: murata.co.jp</description>
 <connect gate="G$1" pin="SCK" pad="2"/>
 <connect gate="G$1" pin="VCC" pad="6"/>
 </connects>
+=======
+>>>>>>> 650c0e2e0b646a35012235e1e33001092cb6f053
 <technologies>
 <technology name=""/>
 </technologies>

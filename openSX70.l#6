@@ -1984,6 +1984,7 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <pin name="GND" x="8.89" y="-2.54" visible="pad" length="middle" rot="R180"/>
 <pin name="MOSI" x="8.89" y="0" visible="pad" length="middle" rot="R180"/>
 <pin name="VCC" x="8.89" y="2.54" visible="pad" length="middle" rot="R180"/>
+<<<<<<< HEAD
 </symbol>
 <symbol name="SW_4POS">
 <wire x1="2.54" y1="5.08" x2="0.254" y2="2.794" width="0.254" layer="94"/>
@@ -2002,6 +2003,8 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 <pin name="1" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 <pin name="8" x="5.08" y="10.16" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+=======
+>>>>>>> 650c0e2e0b646a35012235e1e33001092cb6f053
 </symbol>
 </symbols>
 <devicesets>
@@ -2745,7 +2748,11 @@ Source: murata.co.jp</description>
 <device name="" package="CSET8-5G_PACKAGE">
 <connects>
 <connect gate="G$1" pin="+" pad="BUZZER+"/>
+<<<<<<< HEAD
 <connect gate="G$1" pin="-" pad="BUZZER-"/>
+=======
+<connect gate="G$1" pin="-" pad="BUZZER- BUZZER-2 BUZZER-3"/>
+>>>>>>> 650c0e2e0b646a35012235e1e33001092cb6f053
 </connects>
 <technologies>
 <technology name=""/>
