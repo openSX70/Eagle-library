@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
+<<<<<<< HEAD
 <eagle version="9.0.0">
+=======
+<eagle version="8.6.3">
+>>>>>>> 650c0e2e0b646a35012235e1e33001092cb6f053
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
+<<<<<<< HEAD
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+=======
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mm"/>
+>>>>>>> 650c0e2e0b646a35012235e1e33001092cb6f053
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1399,6 +1407,7 @@ Package for devices meant to mate to an FTDI connector.
 <text x="3.81" y="-2.54" size="0.889" layer="27" ratio="11" rot="R90">&gt;value</text>
 <rectangle x1="-2.54" y1="-3.81" x2="2.54" y2="3.81" layer="39"/>
 </package>
+<<<<<<< HEAD
 <package name="SW-C16" urn="urn:adsk.eagle:footprint:26582/1">
 <description>&lt;B&gt;SWITCH&lt;/B&gt;&lt;p&gt;
 16-step rotary</description>
@@ -1577,6 +1586,22 @@ Package for devices meant to mate to an FTDI connector.
 <text x="0.5" y="-3" size="1.27" layer="21" font="vector" rot="R180">8</text>
 <text x="3" y="0" size="1.27" layer="21" font="vector" rot="SR270">4</text>
 <text x="-3" y="-0.5" size="1.27" layer="21" font="vector" rot="R90">C</text>
+=======
+<package name="1X01">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-0.635" y1="0.889" x2="2.032" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="0.889" x2="2.413" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="0.635" x2="2.413" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="-0.635" x2="2.032" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="0.635" x2="-0.889" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="0.889" x2="-0.889" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-0.635" x2="-0.635" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-0.889" x2="-0.635" y2="-0.889" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" shape="offset"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+>>>>>>> 650c0e2e0b646a35012235e1e33001092cb6f053
 </package>
 </packages>
 <packages3d>
@@ -2870,6 +2895,7 @@ Source: murata.co.jp</description>
 </device>
 </devices>
 </deviceset>
+<<<<<<< HEAD
 <deviceset name="SW-C16" prefix="SW" uservalue="yes">
 <description>&lt;b&gt;SWITCH&lt;/b&gt;&lt;p&gt;
 16-step rotary switch</description>
@@ -2900,6 +2926,13 @@ Source: murata.co.jp</description>
 </gates>
 <devices>
 <device name="" package="CTS221AMX16">
+=======
+<deviceset name="PINHEAD">
+<gates>
+</gates>
+<devices>
+<device name="">
+>>>>>>> 650c0e2e0b646a35012235e1e33001092cb6f053
 <technologies>
 <technology name=""/>
 </technologies>
