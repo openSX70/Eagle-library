@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1621,6 +1621,22 @@ Package for devices meant to mate to an FTDI connector.
 <vertex x="-3.175" y="-1.4478"/>
 </polygon>
 </package>
+<package name="SX70-7-PAD-HOLES">
+<smd name="S5" x="5.0165" y="-2.5908" dx="1.31" dy="1.93" layer="1" rot="R296"/>
+<smd name="S3" x="4.2037" y="-1.0668" dx="1.31" dy="1.93" layer="1" rot="R296"/>
+<smd name="GND" x="3.4036" y="0.4953" dx="1.31" dy="1.93" layer="1" rot="R296"/>
+<smd name="MOTOR+" x="2.6543" y="2.0701" dx="1.31" dy="1.93" layer="1" rot="R296"/>
+<smd name="VCC-6V" x="1.8796" y="3.6576" dx="1.31" dy="1.93" layer="1" rot="R296"/>
+<smd name="S9" x="1.1176" y="5.2324" dx="1.31" dy="1.93" layer="1" rot="R296"/>
+<smd name="S8" x="0.3556" y="6.8072" dx="1.31" dy="1.93" layer="1" rot="R296"/>
+<hole x="1.13" y="5.24" drill="0.8"/>
+<hole x="1.89" y="3.68" drill="0.8"/>
+<hole x="2.66" y="2.09" drill="0.8"/>
+<hole x="3.37" y="0.45" drill="0.8"/>
+<hole x="0.39" y="6.81" drill="0.8"/>
+<hole x="4.21" y="-1.02" drill="0.8"/>
+<hole x="5.04" y="-2.56" drill="0.8"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SW-C16" urn="urn:adsk.eagle:package:26665/1" type="box">
@@ -3002,6 +3018,27 @@ Source: murata.co.jp</description>
 <attribute name="MPN" value="ST-PJ-312" constant="no"/>
 <attribute name="VALUE" value="ST-PJ-312"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SX70-7-PAD-HOLES">
+<gates>
+<gate name="G$1" symbol="SX70-7-PAD-SYMBOL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SX70-7-PAD-HOLES">
+<connects>
+<connect gate="G$1" pin="6V" pad="VCC-6V"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MOTOR+" pad="MOTOR+"/>
+<connect gate="G$1" pin="S3" pad="S3"/>
+<connect gate="G$1" pin="S5" pad="S5"/>
+<connect gate="G$1" pin="S8" pad="S8"/>
+<connect gate="G$1" pin="S9" pad="S9"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
