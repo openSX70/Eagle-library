@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1719,7 +1719,7 @@ PITCH 1.60MM</text>
 <smd name="GNDB" x="3.2" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
 <smd name="S2B" x="1.6" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
 </package>
-<package name="SX70-7-PAD-PROPER">
+<package name="SX70-7-PAD-PROPER.OLD">
 <text x="0.5" y="-1" size="0.6096" layer="51">camera connector</text>
 <text x="0.5" y="-2" size="0.6096" layer="51">pitch 1,75mm</text>
 <text x="0.5" y="-3" size="0.6096" layer="51">angle 298º inversed 244º</text>
@@ -1760,7 +1760,7 @@ PITCH 1.60MM</text>
 <package name="SX70-7-PAD-HOLES-PROPER">
 <text x="0.5" y="-1" size="0.6096" layer="51">camera connector</text>
 <text x="0.5" y="-2" size="0.6096" layer="51">pitch 1,75mm</text>
-<text x="0.5" y="-3" size="0.6096" layer="51">angle 298º inversed 244º</text>
+<text x="0.5" y="-3" size="0.6096" layer="51">angle 296º inversed 244º</text>
 <polygon width="0.127" layer="1">
 <vertex x="0.21875" y="2.40625"/>
 <vertex x="1.53125" y="2.40625"/>
@@ -1816,6 +1816,246 @@ PITCH 1.60MM</text>
 <vertex x="12.03125" y="0.4375"/>
 <vertex x="10.71875" y="0.4375"/>
 </polygon>
+<polygon width="0.127" layer="31">
+<vertex x="0.21875" y="2.40625"/>
+<vertex x="1.53125" y="2.40625"/>
+<vertex x="1.53125" y="0.4375"/>
+<vertex x="0.21875" y="0.4375"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="1.96875" y="2.40625"/>
+<vertex x="1.96875" y="0.4375"/>
+<vertex x="3.28125" y="0.4375"/>
+<vertex x="3.28125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="3.71875" y="2.40625"/>
+<vertex x="3.71875" y="0.4375"/>
+<vertex x="5.03125" y="0.4375"/>
+<vertex x="5.03125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="5.46875" y="2.40625"/>
+<vertex x="5.46875" y="0.4375"/>
+<vertex x="6.78125" y="0.4375"/>
+<vertex x="6.78125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="7.21875" y="2.40625"/>
+<vertex x="7.21875" y="0.4375"/>
+<vertex x="8.53125" y="0.4375"/>
+<vertex x="8.53125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="8.96875" y="2.40625"/>
+<vertex x="8.96875" y="0.4375"/>
+<vertex x="10.28125" y="0.4375"/>
+<vertex x="10.28125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="10.71875" y="2.40625"/>
+<vertex x="10.71875" y="0.4375"/>
+<vertex x="12.03125" y="0.4375"/>
+<vertex x="12.03125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0.21875" y="2.40625"/>
+<vertex x="0.21875" y="0.4375"/>
+<vertex x="1.53125" y="0.4375"/>
+<vertex x="1.53125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="1.96875" y="2.40625"/>
+<vertex x="1.96875" y="0.4375"/>
+<vertex x="3.28125" y="0.4375"/>
+<vertex x="3.28125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="3.71875" y="2.40625"/>
+<vertex x="3.71875" y="0.4375"/>
+<vertex x="5.03125" y="0.4375"/>
+<vertex x="5.03125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="5.46875" y="2.40625"/>
+<vertex x="5.46875" y="0.4375"/>
+<vertex x="6.78125" y="0.4375"/>
+<vertex x="6.78125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="7.21875" y="2.40625"/>
+<vertex x="7.21875" y="0.4375"/>
+<vertex x="8.53125" y="0.4375"/>
+<vertex x="8.53125" y="2.40625"/>
+<vertex x="7.4375" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="8.96875" y="2.40625"/>
+<vertex x="8.96875" y="0.4375"/>
+<vertex x="10.28125" y="0.4375"/>
+<vertex x="10.28125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="10.71875" y="2.40625"/>
+<vertex x="10.71875" y="0.4375"/>
+<vertex x="12.03125" y="0.4375"/>
+<vertex x="12.03125" y="2.40625"/>
+</polygon>
+</package>
+<package name="SX70-SOLENOID1-4-HOLES">
+<smd name="A" x="-2.54" y="0.127" dx="1.3716" dy="2.54" layer="1" rot="R180"/>
+<smd name="B" x="-0.6985" y="0.127" dx="1.3716" dy="2.54" layer="1" rot="R180"/>
+<smd name="+" x="1.0795" y="0.127" dx="1.3716" dy="2.54" layer="1" rot="R180"/>
+<smd name="-" x="2.8575" y="0.127" dx="1.3716" dy="2.54" layer="1" rot="R180"/>
+<pad name="P$1" x="-2.54" y="0" drill="1.1176" diameter="1.37" shape="square"/>
+<pad name="P$2" x="1.03" y="0.2" drill="1.1176" diameter="1.37" shape="square"/>
+<pad name="P$3" x="2.83" y="0.2" drill="1.1176" diameter="1.37" shape="square"/>
+<pad name="P$4" x="-0.67" y="0.1" drill="1.1176" diameter="1.37" shape="square"/>
+</package>
+<package name="SX70-7-PAD-PROPER">
+<text x="0.5" y="-1" size="0.6096" layer="51">camera connector</text>
+<text x="0.5" y="-2" size="0.6096" layer="51">pitch 1,75mm</text>
+<text x="0.5" y="-3" size="0.6096" layer="51">angle 296º inversed 244º</text>
+<polygon width="0.127" layer="1">
+<vertex x="0.21875" y="2.40625"/>
+<vertex x="1.53125" y="2.40625"/>
+<vertex x="1.53125" y="0.4375"/>
+<vertex x="0.21875" y="0.4375"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="0.21875" y="2.40625"/>
+<vertex x="1.53125" y="2.40625"/>
+<vertex x="1.53125" y="0.4375"/>
+<vertex x="0.21875" y="0.4375"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="1.96875" y="2.40625"/>
+<vertex x="3.28125" y="2.40625"/>
+<vertex x="3.28125" y="0.4375"/>
+<vertex x="1.96875" y="0.4375"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="3.71875" y="2.40625"/>
+<vertex x="5.03125" y="2.40625"/>
+<vertex x="5.03125" y="0.4375"/>
+<vertex x="3.71875" y="0.4375"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="5.46875" y="2.40625"/>
+<vertex x="6.78125" y="2.40625"/>
+<vertex x="6.78125" y="0.4375"/>
+<vertex x="5.46875" y="0.4375"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="7.21875" y="2.40625"/>
+<vertex x="8.53125" y="2.40625"/>
+<vertex x="8.53125" y="0.4375"/>
+<vertex x="7.21875" y="0.4375"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="8.96875" y="2.40625"/>
+<vertex x="10.28125" y="2.40625"/>
+<vertex x="10.28125" y="0.4375"/>
+<vertex x="8.96875" y="0.4375"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="10.71875" y="2.40625"/>
+<vertex x="12.03125" y="2.40625"/>
+<vertex x="12.03125" y="0.4375"/>
+<vertex x="10.71875" y="0.4375"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="0.21875" y="2.40625"/>
+<vertex x="1.53125" y="2.40625"/>
+<vertex x="1.53125" y="0.4375"/>
+<vertex x="0.21875" y="0.4375"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="1.96875" y="2.40625"/>
+<vertex x="1.96875" y="0.4375"/>
+<vertex x="3.28125" y="0.4375"/>
+<vertex x="3.28125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="3.71875" y="2.40625"/>
+<vertex x="3.71875" y="0.4375"/>
+<vertex x="5.03125" y="0.4375"/>
+<vertex x="5.03125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="5.46875" y="2.40625"/>
+<vertex x="5.46875" y="0.4375"/>
+<vertex x="6.78125" y="0.4375"/>
+<vertex x="6.78125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="7.21875" y="2.40625"/>
+<vertex x="7.21875" y="0.4375"/>
+<vertex x="8.53125" y="0.4375"/>
+<vertex x="8.53125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="8.96875" y="2.40625"/>
+<vertex x="8.96875" y="0.4375"/>
+<vertex x="10.28125" y="0.4375"/>
+<vertex x="10.28125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="10.71875" y="2.40625"/>
+<vertex x="10.71875" y="0.4375"/>
+<vertex x="12.03125" y="0.4375"/>
+<vertex x="12.03125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0.21875" y="2.40625"/>
+<vertex x="0.21875" y="0.4375"/>
+<vertex x="1.53125" y="0.4375"/>
+<vertex x="1.53125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="1.96875" y="2.40625"/>
+<vertex x="1.96875" y="0.4375"/>
+<vertex x="3.28125" y="0.4375"/>
+<vertex x="3.28125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="3.71875" y="2.40625"/>
+<vertex x="3.71875" y="0.4375"/>
+<vertex x="5.03125" y="0.4375"/>
+<vertex x="5.03125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="5.46875" y="2.40625"/>
+<vertex x="5.46875" y="0.4375"/>
+<vertex x="6.78125" y="0.4375"/>
+<vertex x="6.78125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="7.21875" y="2.40625"/>
+<vertex x="7.21875" y="0.4375"/>
+<vertex x="8.53125" y="0.4375"/>
+<vertex x="8.53125" y="2.40625"/>
+<vertex x="7.4375" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="8.96875" y="2.40625"/>
+<vertex x="8.96875" y="0.4375"/>
+<vertex x="10.28125" y="0.4375"/>
+<vertex x="10.28125" y="2.40625"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="10.71875" y="2.40625"/>
+<vertex x="10.71875" y="0.4375"/>
+<vertex x="12.03125" y="0.4375"/>
+<vertex x="12.03125" y="2.40625"/>
+</polygon>
+<smd name="S8" x="0.875" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="S9" x="2.625" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="VCC" x="4.375" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="MOTOR" x="6.125" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="GND" x="7.875" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="S3" x="9.625" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="S5" x="11.375" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 </package>
 </packages>
 <packages3d>
@@ -2336,15 +2576,15 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <gate name="G$1" symbol="SX70-7-PAD-SYMBOL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SX70-7-PAD.OLD">
+<device name="" package="SX70-7-PAD-PROPER">
 <connects>
-<connect gate="G$1" pin="6V" pad="VCC-6V"/>
+<connect gate="G$1" pin="6V" pad="VCC"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="MOTOR+" pad="MOTOR+"/>
+<connect gate="G$1" pin="MOTOR+" pad="MOTOR"/>
 <connect gate="G$1" pin="S3" pad="S3"/>
 <connect gate="G$1" pin="S5" pad="S5"/>
-<connect gate="G$1" pin="S8" pad="S9"/>
-<connect gate="G$1" pin="S9" pad="S8"/>
+<connect gate="G$1" pin="S8" pad="S8"/>
+<connect gate="G$1" pin="S9" pad="S9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3235,7 +3475,7 @@ Source: murata.co.jp</description>
 <gate name="G$1" symbol="SX70-7-PAD-SYMBOL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SX70-7-PAD-PROPER">
+<device name="" package="SX70-7-PAD-PROPER.OLD">
 <connects>
 <connect gate="G$1" pin="6V" pad="VCC"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
