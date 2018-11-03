@@ -2441,6 +2441,16 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <text x="-8.645040625" y="-5.848109375" size="1.27133125" layer="96">&gt;VALUE</text>
 <pin name="Y_C" x="5.08" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
 <pin name="Y_A" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+<wire x1="-2.54" y1="-8.636" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-11.684" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-11.684" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="-2.54" y2="-8.636" width="0.254" layer="94"/>
+<wire x1="0" y1="-8.636" x2="0" y2="-11.684" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-5.08" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="-8.128" x2="1.016" y2="-6.096" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-8.128" x2="0" y2="-6.096" width="0.254" layer="94"/>
+<pin name="Y_C1" x="5.08" y="-10.16" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="Y_A1" x="-7.62" y="-10.16" visible="pad" length="short" direction="pas"/>
 </symbol>
 <symbol name="APHB1608SYKSURKC_SECTION2">
 <wire x1="-2.54" y1="1.524" x2="-2.54" y2="0" width="0.254" layer="94"/>
@@ -3570,6 +3580,24 @@ Source: Kingbright .. 2_colour_led_.pdf</description>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15877/1"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DUAL-LED-0603-PROPER">
+<gates>
+<gate name="G$1" symbol="APHB1608SYKSURKC_SECTION1" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="LED_APHB1608SYKSURKC">
+<connects>
+<connect gate="G$1" pin="Y_A" pad="1"/>
+<connect gate="G$1" pin="Y_A1" pad="3"/>
+<connect gate="G$1" pin="Y_C" pad="2"/>
+<connect gate="G$1" pin="Y_C1" pad="4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
