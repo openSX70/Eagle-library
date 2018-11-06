@@ -60,9 +60,9 @@
 <packages>
 <package name="SOD6439X130N">
 <wire x1="-2.2" y1="1.95" x2="2.2" y2="1.95" width="0.2" layer="21"/>
-<wire x1="2.2" y1="1.95" x2="2.2" y2="-1.95" width="0.2" layer="51"/>
+<wire x1="2.2" y1="1.95" x2="2.2" y2="-1.95" width="0.2" layer="21"/>
 <wire x1="2.2" y1="-1.95" x2="-2.2" y2="-1.95" width="0.2" layer="21"/>
-<wire x1="-2.2" y1="-1.95" x2="-2.2" y2="1.95" width="0.2" layer="51"/>
+<wire x1="-2.2" y1="-1.95" x2="-2.2" y2="1.95" width="0.2" layer="21"/>
 <text x="-3.556190625" y="2.45428125" size="0.8128" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-3.758709375" y="-3.15731875" size="0.8128" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <wire x1="-3.95" y1="2.25" x2="3.95" y2="2.25" width="0.05" layer="39"/>
