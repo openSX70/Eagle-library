@@ -1674,7 +1674,7 @@ ANGLE BOTTOM: 144º</text>
 <text x="0.4" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S1F</text>
 <text x="2" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S2</text>
 <text x="3.6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">GND</text>
-<text x="4" y="-3.2" size="0.3048" layer="21" font="vector" rot="R180">FLASHFLEX CONNECTOR
+<text x="4" y="-3.2" size="0.3048" layer="48" font="vector" rot="R180">FLASHFLEX CONNECTOR
 ANGLE TOP: 306º
 ANGLE BOTTOM: 144º
 PITCH 1.60MM</text>

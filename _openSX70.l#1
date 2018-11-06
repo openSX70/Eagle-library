@@ -1901,13 +1901,13 @@ PITCH 1.60MM</text>
 <text x="0.5" y="-1" size="0.6096" layer="51">camera connector</text>
 <text x="0.5" y="-2" size="0.6096" layer="51">pitch 1,75mm</text>
 <text x="0.5" y="-3" size="0.6096" layer="51">angle 296º inversed 244º</text>
-<smd name="S8" x="0.875" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
-<smd name="S9" x="2.625" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
-<smd name="VCC" x="4.375" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
-<smd name="MOTOR" x="6.125" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
-<smd name="GND" x="7.875" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
-<smd name="S3" x="9.625" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
-<smd name="S5" x="11.375" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
+<smd name="S8" x="0.875" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="S9" x="2.625" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="VCC" x="4.375" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="MOTOR" x="6.125" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="GND" x="7.875" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="S3" x="9.625" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="S5" x="11.375" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
 </package>
 <package name="DUOLED-A-3MM" urn="urn:adsk.eagle:footprint:15758/1" locally_modified="yes">
 <description>&lt;b&gt;T-1(3mm) BI-COLOR INDICATOR LAMP&lt;/b&gt;&lt;p&gt;
