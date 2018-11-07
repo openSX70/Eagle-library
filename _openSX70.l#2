@@ -1674,7 +1674,7 @@ ANGLE BOTTOM: 144º</text>
 <text x="0.4" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S1F</text>
 <text x="2" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S2</text>
 <text x="3.6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">GND</text>
-<text x="4" y="-3.2" size="0.3048" layer="21" font="vector" rot="R180">FLASHFLEX CONNECTOR
+<text x="4" y="-3.2" size="0.3048" layer="51" font="vector" rot="R180">FLASHFLEX CONNECTOR
 ANGLE TOP: 306º
 ANGLE BOTTOM: 144º
 PITCH 1.60MM</text>
@@ -1901,13 +1901,13 @@ PITCH 1.60MM</text>
 <text x="0.5" y="-1" size="0.6096" layer="51">camera connector</text>
 <text x="0.5" y="-2" size="0.6096" layer="51">pitch 1,75mm</text>
 <text x="0.5" y="-3" size="0.6096" layer="51">angle 296º inversed 244º</text>
-<smd name="S8" x="0.875" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
-<smd name="S9" x="2.625" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
-<smd name="VCC" x="4.375" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
-<smd name="MOTOR" x="6.125" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
-<smd name="GND" x="7.875" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
-<smd name="S3" x="9.625" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
-<smd name="S5" x="11.375" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
+<smd name="S8" x="0.875" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="S9" x="2.625" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="VCC" x="4.375" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="MOTOR" x="6.125" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="GND" x="7.875" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="S3" x="9.625" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="S5" x="11.375" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
 </package>
 <package name="DUOLED-A-3MM" urn="urn:adsk.eagle:footprint:15758/1" locally_modified="yes">
 <description>&lt;b&gt;T-1(3mm) BI-COLOR INDICATOR LAMP&lt;/b&gt;&lt;p&gt;
