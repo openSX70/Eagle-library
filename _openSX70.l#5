@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1674,7 +1674,7 @@ ANGLE BOTTOM: 144º</text>
 <text x="0.4" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S1F</text>
 <text x="2" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S2</text>
 <text x="3.6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">GND</text>
-<text x="4" y="-3.2" size="0.3048" layer="21" font="vector" rot="R180">FLASHFLEX CONNECTOR
+<text x="4" y="-3.2" size="0.3048" layer="51" font="vector" rot="R180">FLASHFLEX CONNECTOR
 ANGLE TOP: 306º
 ANGLE BOTTOM: 144º
 PITCH 1.60MM</text>
@@ -1901,13 +1901,13 @@ PITCH 1.60MM</text>
 <text x="0.5" y="-1" size="0.6096" layer="51">camera connector</text>
 <text x="0.5" y="-2" size="0.6096" layer="51">pitch 1,75mm</text>
 <text x="0.5" y="-3" size="0.6096" layer="51">angle 296º inversed 244º</text>
-<smd name="S8" x="0.875" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
-<smd name="S9" x="2.625" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
-<smd name="VCC" x="4.375" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
-<smd name="MOTOR" x="6.125" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
-<smd name="GND" x="7.875" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
-<smd name="S3" x="9.625" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
-<smd name="S5" x="11.375" y="1.3125" dx="1.97" dy="1.31" layer="1" rot="R90"/>
+<smd name="S8" x="0.875" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="S9" x="2.625" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="VCC" x="4.375" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="MOTOR" x="6.125" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="GND" x="7.875" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="S3" x="9.625" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="S5" x="11.375" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
 </package>
 <package name="DUOLED-A-3MM" urn="urn:adsk.eagle:footprint:15758/1" locally_modified="yes">
 <description>&lt;b&gt;T-1(3mm) BI-COLOR INDICATOR LAMP&lt;/b&gt;&lt;p&gt;
@@ -2128,19 +2128,19 @@ Switches electronic signals</description>
 <pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
 </symbol>
 <symbol name="SX70-SONAR-PADS">
-<wire x1="-55.88" y1="25.4" x2="-55.88" y2="-17.78" width="0" layer="94"/>
-<wire x1="-55.88" y1="-17.78" x2="-40.64" y2="-17.78" width="0" layer="94"/>
-<wire x1="-40.64" y1="-17.78" x2="-40.64" y2="25.4" width="0" layer="94"/>
-<wire x1="-40.64" y1="25.4" x2="-55.88" y2="25.4" width="0" layer="94"/>
-<text x="-53.34" y="-2.54" size="1.778" layer="94" font="vector" rot="R90">SX70 SONAR</text>
-<pin name="GTD" x="-35.56" y="22.86" length="middle" rot="R180"/>
-<pin name="VCC" x="-35.56" y="17.78" length="middle" rot="R180"/>
-<pin name="FF" x="-35.56" y="12.7" length="middle" rot="R180"/>
-<pin name="FT" x="-35.56" y="7.62" length="middle" rot="R180"/>
-<pin name="S1T" x="-35.56" y="2.54" length="middle" rot="R180"/>
-<pin name="S1F" x="-35.56" y="-2.54" length="middle" rot="R180"/>
-<pin name="S2" x="-35.56" y="-7.62" length="middle" rot="R180"/>
-<pin name="-" x="-35.56" y="-12.7" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="20.32" x2="-7.62" y2="-22.86" width="0" layer="94"/>
+<wire x1="-7.62" y1="-22.86" x2="7.62" y2="-22.86" width="0" layer="94"/>
+<wire x1="7.62" y1="-22.86" x2="7.62" y2="20.32" width="0" layer="94"/>
+<wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0" layer="94"/>
+<text x="-2.54" y="-7.62" size="1.778" layer="94" font="vector" rot="R90">SX70 SONAR</text>
+<pin name="GTD" x="12.7" y="17.78" length="middle" rot="R180"/>
+<pin name="VCC" x="12.7" y="12.7" length="middle" rot="R180"/>
+<pin name="FF" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="FT" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="S1T" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="S1F" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="S2" x="12.7" y="-12.7" length="middle" rot="R180"/>
+<pin name="-" x="12.7" y="-17.78" length="middle" rot="R180"/>
 </symbol>
 <symbol name="ATMEGAXX8-32PIN_NOPAD">
 <wire x1="-20.32" y1="33.02" x2="17.78" y2="33.02" width="0.254" layer="94"/>
