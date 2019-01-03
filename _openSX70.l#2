@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2187,6 +2187,13 @@ Source: Kingbright .. 2_colour_led_.pdf</description>
 <smd name="VCC-6V" x="3.85" y="7.5" dx="2.4" dy="6.7" layer="1" rot="R180"/>
 <smd name="FLASH-2" x="6.42" y="7.5" dx="2.4" dy="6.7" layer="1" rot="R180"/>
 <smd name="FLASH-1" x="8.99" y="7.5" dx="2.4" dy="6.7" layer="1" rot="R180"/>
+</package>
+<package name="FLASH-8-BRIDGE1">
+<text x="-10.16" y="3.81" size="1.778" layer="21" font="vector">&gt;NAME</text>
+<smd name="GND" x="-9" y="7.5" dx="2.4" dy="6.7" layer="1" rot="R180"/>
+<smd name="S2" x="-6.43" y="7.5" dx="2.4" dy="6.7" layer="1" rot="R180"/>
+<smd name="FLASH-5" x="-3.86" y="7.5" dx="2.4" dy="6.7" layer="1" rot="R180"/>
+<smd name="VCC-6V" x="3.85" y="7.5" dx="2.4" dy="6.7" layer="1" rot="R180"/>
 </package>
 </packages>
 <packages3d>

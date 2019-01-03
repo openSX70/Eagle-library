@@ -3698,7 +3698,7 @@ Source: murata.co.jp</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SW-C16" prefix="SW" uservalue="yes">
+<deviceset name="SELECTOR-4-1-HOLE-SW-C16" prefix="SW" uservalue="yes">
 <description>&lt;b&gt;SWITCH&lt;/b&gt;&lt;p&gt;
 16-step rotary switch</description>
 <gates>
@@ -3810,33 +3810,6 @@ Source: murata.co.jp</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DUAL-LED-0603" prefix="D">
-<description>Led; 3mm White High-Intensity Led</description>
-<gates>
-<gate name="G$1" symbol="APHB1608SYKSURKC_SECTION1" x="0" y="12.7"/>
-<gate name="G$2" symbol="APHB1608SYKSURKC_SECTION2" x="0" y="-2.54" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="LED_APHB1608SYKSURKC">
-<connects>
-<connect gate="G$1" pin="Y_A" pad="1"/>
-<connect gate="G$1" pin="Y_C" pad="2"/>
-<connect gate="G$2" pin="R_A" pad="3"/>
-<connect gate="G$2" pin="R_C" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Surface Mount LED; Size : 1.6X0.8mm _0603_; Color: Green / Yellow; Lens: Water Clear "/>
-<attribute name="MF" value="Kingbright"/>
-<attribute name="MP" value="APHB1608SYKSURKC"/>
-<attribute name="PACKAGE" value="0603 Kingbright"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SX70-SONAR-FLASHFLEX-HOLES">
 <gates>
 <gate name="G$1" symbol="SX70-SONAR-PADS" x="43.18" y="-5.08"/>
@@ -3943,36 +3916,7 @@ Source: Kingbright .. 2_colour_led_.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DUOLED-0603">
-<gates>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="DUAL-LED-0603-BIS">
-<gates>
-<gate name="G$1" symbol="LED" x="-5.08" y="0"/>
-</gates>
-<devices>
-<device name="" package="LED_APHB1608SYKSURKC">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="A1" pad="3"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="C1" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="A6RS">
+<deviceset name="SELECTOR-4-1-SMD-A6RS">
 <gates>
 <gate name="G$1" symbol="SW_4POS" x="0" y="0"/>
 </gates>
@@ -3991,7 +3935,7 @@ Source: Kingbright .. 2_colour_led_.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SJ-3523-SMT-TR" prefix="J">
+<deviceset name="JACK-SMD-SJ-3523-SMT-TR" prefix="J">
 <description>&lt;b&gt;Audio Jack Connector&lt;/b&gt; 3.5 mm Low Profile Surface Mount Stereo Jack, 3 Pin Right-Angle</description>
 <gates>
 <gate name="G$1" symbol="SJ-3523-SMT-TR" x="0" y="0"/>
@@ -4017,7 +3961,7 @@ Source: Kingbright .. 2_colour_led_.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LTST-C195KGJRKT">
+<deviceset name="DUOLED-PROPER-LTST-C195KGJRKT">
 <gates>
 <gate name="G$1" symbol="LTST-BILED-SYM" x="0" y="0"/>
 </gates>
