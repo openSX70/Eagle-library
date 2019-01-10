@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1.6" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.016" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1557,6 +1557,226 @@ Package for devices meant to mate to an FTDI connector.
 <text x="-5.08" y="-7.366" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-1.016" x2="0.254" y2="1.524" layer="21"/>
 </package>
+<package name="CTS221AMX16">
+<smd name="C" x="-6.04" y="0" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="P$2" x="-6.04" y="2.54" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="P$3" x="-6.04" y="-2.54" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="1" x="-6.04" y="2.54" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="8" x="5.96" y="2.54" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="C2" x="5.96" y="0" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="4" x="-6.04" y="-2.54" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="2" x="5.96" y="-2.54" dx="1.2" dy="2" layer="1" rot="R90"/>
+<wire x1="-4.5" y1="4.825" x2="4.5" y2="4.825" width="0.1524" layer="21"/>
+<wire x1="4.5" y1="4.825" x2="4.5" y2="-4.955" width="0.1524" layer="21"/>
+<wire x1="4.5" y1="-4.955" x2="-4.5" y2="-4.955" width="0.1524" layer="21"/>
+<wire x1="-4.5" y1="-4.955" x2="-4.5" y2="3" width="0.1524" layer="21"/>
+<wire x1="-4.5" y1="3" x2="-4.5" y2="4.825" width="0.1524" layer="21"/>
+<wire x1="-4.5" y1="3" x2="-2.75" y2="4.75" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.5" width="0.1524" layer="21"/>
+<text x="-0.5" y="3" size="1.27" layer="21" font="vector">0</text>
+<text x="0.5" y="-3" size="1.27" layer="21" font="vector" rot="R180">8</text>
+<text x="3" y="0" size="1.27" layer="21" font="vector" rot="SR270">4</text>
+<text x="-3" y="-0.5" size="1.27" layer="21" font="vector" rot="R90">C</text>
+</package>
+<package name="AUDIO6P-SMD-3.5-14.0X6.4X5.0MM" urn="urn:adsk.eagle:footprint:33090/1">
+<wire x1="0" y1="2.54" x2="-1.905" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-1.905" y2="3.175" width="0.127" layer="51"/>
+<wire x1="-1.905" y1="3.175" x2="-13.97" y2="3.175" width="0.127" layer="51"/>
+<wire x1="-13.97" y1="3.175" x2="-13.97" y2="-3.175" width="0.127" layer="51"/>
+<wire x1="-13.97" y1="-3.175" x2="-1.905" y2="-3.175" width="0.127" layer="51"/>
+<wire x1="-1.905" y1="-3.175" x2="-1.905" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="-1.905" y1="-2.54" x2="0" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-3.24" y1="-3.175" x2="-3.24" y2="3.175" width="0.0254" layer="20"/>
+<wire x1="-1.9" y1="2.6" x2="-1.9" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="3.175" x2="-3.8" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-5.4" y1="3.2" x2="-6.8" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-8.4" y1="3.2" x2="-11.6" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-13.1" y1="3.2" x2="-14" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-14" y1="3.2" x2="-14" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-12.6" y1="-3.2" x2="-12.1" y2="-3.2" width="0.127" layer="21"/>
+<wire x1="-10.5" y1="-3.2" x2="-5.5" y2="-3.2" width="0.127" layer="21"/>
+<wire x1="-3.9" y1="-3.2" x2="-1.9" y2="-3.2" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-3.2" x2="-1.9" y2="-2.5" width="0.127" layer="21"/>
+<smd name="LS" x="-13.335" y="-3.429" dx="3.302" dy="1.27" layer="1" rot="R90"/>
+<smd name="L" x="-11.303" y="-3.937" dx="2.286" dy="1.27" layer="1" rot="R90"/>
+<smd name="COM2" x="-4.699" y="-3.683" dx="2.794" dy="1.27" layer="1" rot="R90"/>
+<smd name="RS" x="-12.319" y="3.937" dx="2.286" dy="1.27" layer="1" rot="R90"/>
+<smd name="R" x="-7.62" y="3.937" dx="2.286" dy="1.27" layer="1" rot="R90"/>
+<smd name="COM1" x="-4.572" y="3.937" dx="2.286" dy="1.27" layer="1" rot="R90"/>
+<text x="-14.605" y="-1.905" size="0.889" layer="25" ratio="11" rot="R90">&gt;name</text>
+<text x="-10.16" y="-4.445" size="0.889" layer="27" ratio="11">&gt;value</text>
+<rectangle x1="-13.97" y1="-3.175" x2="-1.905" y2="3.175" layer="39"/>
+<hole x="-12.573" y="0" drill="1.27"/>
+<polygon width="0.127" layer="46">
+<vertex x="-3.175" y="1.4478"/>
+<vertex x="-2.54" y="1.4478" curve="90"/>
+<vertex x="-1.905" y="2.0828"/>
+<vertex x="-1.905" y="2.54"/>
+<vertex x="0" y="2.54"/>
+<vertex x="0" y="-2.54"/>
+<vertex x="-1.905" y="-2.54"/>
+<vertex x="-1.905" y="-2.0828" curve="90"/>
+<vertex x="-2.54" y="-1.4478"/>
+<vertex x="-3.175" y="-1.4478"/>
+</polygon>
+</package>
+<package name="SX70-7-PAD-HOLES">
+<smd name="S5" x="5.0165" y="-2.5908" dx="1.31" dy="1.93" layer="1" rot="R296"/>
+<smd name="S3" x="4.2037" y="-1.0668" dx="1.31" dy="1.93" layer="1" rot="R296"/>
+<smd name="GND" x="3.4036" y="0.4953" dx="1.31" dy="1.93" layer="1" rot="R296"/>
+<smd name="MOTOR+" x="2.6543" y="2.0701" dx="1.31" dy="1.93" layer="1" rot="R296"/>
+<smd name="VCC-6V" x="1.8796" y="3.6576" dx="1.31" dy="1.93" layer="1" rot="R296"/>
+<smd name="S9" x="1.1176" y="5.2324" dx="1.31" dy="1.93" layer="1" rot="R296"/>
+<smd name="S8" x="0.3556" y="6.8072" dx="1.31" dy="1.93" layer="1" rot="R296"/>
+<hole x="1.13" y="5.24" drill="0.8"/>
+<hole x="1.89" y="3.68" drill="0.8"/>
+<hole x="2.66" y="2.09" drill="0.8"/>
+<hole x="3.37" y="0.45" drill="0.8"/>
+<hole x="0.39" y="6.81" drill="0.8"/>
+<hole x="4.21" y="-1.02" drill="0.8"/>
+<hole x="5.04" y="-2.56" drill="0.8"/>
+</package>
+<package name="SX70-7-PAD-HOLES-PROPER">
+<rectangle x1="0" y1="0" x2="1.3" y2="1.95" layer="1"/>
+<pad name="P$1" x="0.65" y="1.022" drill="1" diameter="1.27" shape="square"/>
+<pad name="P$2" x="2.4" y="1.022" drill="1" diameter="1.27" shape="square"/>
+<pad name="P$3" x="4.15" y="1.022" drill="1" diameter="1.27" shape="square"/>
+<pad name="P$4" x="5.9" y="1.022" drill="1" diameter="1.27" shape="square"/>
+<pad name="P$5" x="7.65" y="1.022" drill="1" diameter="1.27" shape="square"/>
+<pad name="P$6" x="9.4" y="1.022" drill="1" diameter="1.27" shape="square"/>
+<pad name="P$7" x="11.15" y="1.022" drill="1" diameter="1.27" shape="square"/>
+<rectangle x1="1.75" y1="0" x2="3.05" y2="1.95" layer="1"/>
+<rectangle x1="3.5" y1="0" x2="4.8" y2="1.95" layer="1"/>
+<rectangle x1="5.25" y1="0" x2="6.55" y2="1.95" layer="1"/>
+<rectangle x1="7" y1="0" x2="8.3" y2="1.95" layer="1"/>
+<rectangle x1="8.75" y1="0" x2="10.05" y2="1.95" layer="1"/>
+<rectangle x1="10.5" y1="0" x2="11.8" y2="1.95" layer="1"/>
+<text x="0.5" y="-1" size="0.6096" layer="51">camera connector</text>
+<text x="0.5" y="-2" size="0.6096" layer="51">pitch 1,75mm</text>
+<text x="0.5" y="-3" size="0.6096" layer="51">angle 296º inversed 244º</text>
+<smd name="P$8" x="0.875" y="3.5" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="P$9" x="0.875" y="3.5" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="P$10" x="2.625" y="3.5" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="P$11" x="4.375" y="3.5" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="P$12" x="6.125" y="3.5" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="P$13" x="7.875" y="3.5" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="P$14" x="9.625" y="3.5" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="P$15" x="11.375" y="3.5" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+</package>
+<package name="LED_APHB1608SYKSURKC">
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.127" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="0.85" y1="-0.8" x2="-1.05" y2="-0.8" width="0.05" layer="39"/>
+<wire x1="-1.05" y1="-0.8" x2="-1.05" y2="0.35" width="0.05" layer="39"/>
+<wire x1="-1.05" y1="0.35" x2="-1.05" y2="0.8" width="0.05" layer="39"/>
+<wire x1="-1.05" y1="0.8" x2="1.05" y2="0.8" width="0.05" layer="39"/>
+<wire x1="1.05" y1="0.8" x2="1.05" y2="-0.2" width="0.05" layer="39"/>
+<wire x1="1.05" y1="-0.2" x2="1.05" y2="-0.8" width="0.05" layer="39"/>
+<wire x1="1.05" y1="-0.8" x2="0.85" y2="-0.8" width="0.05" layer="39"/>
+<text x="-1.85323125" y="0.90156875" size="0.81421875" layer="31">&gt;NAME</text>
+<text x="-2.003" y="-1.70255" size="0.814021875" layer="27">&gt;VALUE</text>
+<circle x="-1.2" y="0.4" radius="0.02" width="0.2" layer="21"/>
+<wire x1="-0.1" y1="0.4" x2="0.1" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="-0.4" x2="0.1" y2="-0.4" width="0.127" layer="21"/>
+<smd name="4" x="0.6" y="-0.35" dx="0.5" dy="0.4" layer="1" rot="R180"/>
+<smd name="3" x="-0.6" y="-0.35" dx="0.5" dy="0.4" layer="1" rot="R180"/>
+<smd name="2" x="0.6" y="0.35" dx="0.5" dy="0.4" layer="1" rot="R180"/>
+<smd name="1" x="-0.6" y="0.35" dx="0.5" dy="0.4" layer="1" rot="R180"/>
+</package>
+<package name="SONAR-FLASHFLEX">
+<text x="-7.6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">GTD</text>
+<text x="-6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">VCC</text>
+<text x="-4.4" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">FT</text>
+<text x="-2.8" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">FF</text>
+<text x="-1.2" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S1T</text>
+<text x="0.4" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S1F</text>
+<text x="2" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S2</text>
+<text x="3.6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">GND</text>
+<text x="4" y="-3.2" size="0.3048" layer="21" font="vector" rot="R180">FLASHFLEX CONNECTOR
+ANGLE TOP: 306º
+ANGLE BOTTOM: 144º</text>
+<smd name="GTD" x="-8" y="-0.8" dx="1.78" dy="1.06" layer="1" rot="R90"/>
+<smd name="VCC" x="-6.4" y="-0.8" dx="1.78" dy="1.06" layer="1" rot="R90"/>
+<smd name="FT" x="-4.8" y="-0.8" dx="1.78" dy="1.06" layer="1" rot="R90"/>
+<smd name="FF" x="-3.2" y="-0.8" dx="1.78" dy="1.06" layer="1" rot="R90"/>
+<smd name="S1T" x="-1.6" y="-0.8" dx="1.78" dy="1.06" layer="1" rot="R90"/>
+<smd name="S1F" x="0" y="-0.8" dx="1.78" dy="1.06" layer="1" rot="R90"/>
+<smd name="S2" x="1.6" y="-0.8" dx="1.78" dy="1.06" layer="1" rot="R90"/>
+<smd name="GND" x="3.2" y="-0.8" dx="1.78" dy="1.06" layer="1" rot="R90"/>
+</package>
+<package name="SONAR-FLASHFLEX-HOLES">
+<text x="-7.6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">GTD</text>
+<text x="-6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">VCC</text>
+<text x="-4.4" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">FT</text>
+<text x="-2.8" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">FF</text>
+<text x="-1.2" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S1T</text>
+<text x="0.4" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S1F</text>
+<text x="2" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">S2</text>
+<text x="3.6" y="0.8" size="0.3048" layer="21" font="vector" rot="R180">GND</text>
+<text x="4" y="-3.2" size="0.3048" layer="21" font="vector" rot="R180">FLASHFLEX CONNECTOR
+ANGLE TOP: 306º
+ANGLE BOTTOM: 144º
+PITCH 1.60MM</text>
+<smd name="GTD" x="-8" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="VCC" x="-6.4" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="FT" x="-4.8" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="FF" x="-3.2" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="S1T" x="-1.6" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="S1F" x="0" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="S2" x="1.6" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="GND" x="3.2" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<hole x="-8" y="-0.8" drill="1"/>
+<hole x="-6.4" y="-0.8" drill="1"/>
+<hole x="-4.8" y="-0.8" drill="1"/>
+<hole x="-3.2" y="-0.8" drill="1"/>
+<hole x="3.2" y="-0.8" drill="1"/>
+<hole x="-1.6" y="-0.8" drill="1"/>
+<hole x="0" y="-0.8" drill="1"/>
+<hole x="1.6" y="-0.8" drill="1"/>
+<smd name="GTDB" x="-8" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
+<smd name="VCCB" x="-6.4" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
+<smd name="FTB" x="-4.8" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
+<smd name="FFB" x="-3.2" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
+<smd name="S1TB" x="-1.6" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
+<smd name="S1FB" x="0" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
+<smd name="S1" x="1.6" y="-0.8" dx="1.78" dy="1.2" layer="1" rot="R90"/>
+<smd name="GNDB" x="3.2" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
+<smd name="S2B" x="1.6" y="-0.8" dx="1.78" dy="1.2" layer="16" rot="R90"/>
+</package>
+<package name="SX70-7-PAD-PROPER">
+<text x="0.5" y="-1" size="0.6096" layer="51">camera connector</text>
+<text x="0.5" y="-2" size="0.6096" layer="51">pitch 1,75mm</text>
+<text x="0.5" y="-3" size="0.6096" layer="51">angle 296º inversed 244º</text>
+<smd name="S8" x="0.875" y="1.355" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="S9" x="2.625" y="1.355" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="VCC" x="4.375" y="1.355" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="MOTOR" x="6.125" y="1.355" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="GND" x="7.875" y="1.355" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="S3" x="9.625" y="1.355" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="S5" x="11.375" y="1.355" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+</package>
+<package name="SX70-7-PAD-PROPER-HOLES2">
+<text x="0.5" y="-1" size="0.6096" layer="51">camera connector</text>
+<text x="0.5" y="-2" size="0.6096" layer="51">pitch 1,75mm</text>
+<text x="0.5" y="-3" size="0.6096" layer="51">angle 296º inversed 244º</text>
+<smd name="S8" x="0.875" y="1.355" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="S9" x="2.625" y="1.355" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="VCC" x="4.375" y="1.355" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="MOTOR" x="6.125" y="1.355" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="GND" x="7.875" y="1.355" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="S3" x="9.625" y="1.355" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<smd name="S5" x="11.375" y="1.355" dx="1.31" dy="1.93" layer="1" rot="R180"/>
+<hole x="0.875" y="1.3125" drill="1.1"/>
+<hole x="2.625" y="1.3125" drill="1.1"/>
+<hole x="4.375" y="1.3125" drill="1.1"/>
+<hole x="6.125" y="1.3125" drill="1.1"/>
+<hole x="7.875" y="1.3125" drill="1.1"/>
+<hole x="9.625" y="1.3125" drill="1.1"/>
+<hole x="11.375" y="1.3125" drill="1.1"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SW-C16" urn="urn:adsk.eagle:package:26665/1" type="box">
@@ -1564,6 +1784,11 @@ Package for devices meant to mate to an FTDI connector.
 16-step rotary</description>
 <packageinstances>
 <packageinstance name="SW-C16"/>
+</packageinstances>
+</package3d>
+<package3d name="AUDIO6P-SMD-3.5-14.0X6.4X5.0MM" urn="urn:adsk.eagle:package:33141/1" type="box">
+<packageinstances>
+<packageinstance name="AUDIO6P-SMD-3.5-14.0X6.4X5.0MM"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1581,8 +1806,8 @@ Package for devices meant to mate to an FTDI connector.
 <wire x1="-7.62" y1="-17.78" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
 <wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
-<pin name="S9" x="10.16" y="15.24" length="short" rot="R180"/>
-<pin name="S8" x="10.16" y="10.16" length="short" rot="R180"/>
+<pin name="S8" x="10.16" y="15.24" length="short" rot="R180"/>
+<pin name="S9" x="10.16" y="10.16" length="short" rot="R180"/>
 <pin name="6V" x="10.16" y="5.08" length="short" rot="R180"/>
 <pin name="MOTOR+" x="10.16" y="0" length="short" rot="R180"/>
 <pin name="GND" x="10.16" y="-5.08" length="short" rot="R180"/>
@@ -1744,7 +1969,7 @@ Switches electronic signals</description>
 <pin name="GTD" x="-35.56" y="22.86" length="middle" rot="R180"/>
 <pin name="VCC" x="-35.56" y="17.78" length="middle" rot="R180"/>
 <pin name="FF" x="-35.56" y="12.7" length="middle" rot="R180"/>
-<pin name="F1" x="-35.56" y="7.62" length="middle" rot="R180"/>
+<pin name="FT" x="-35.56" y="7.62" length="middle" rot="R180"/>
 <pin name="S1T" x="-35.56" y="2.54" length="middle" rot="R180"/>
 <pin name="S1F" x="-35.56" y="-2.54" length="middle" rot="R180"/>
 <pin name="S2" x="-35.56" y="-7.62" length="middle" rot="R180"/>
@@ -2003,6 +2228,52 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <pin name="1" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 <pin name="8" x="5.08" y="10.16" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 </symbol>
+<symbol name="AUDIO-JACK-6P-SMD">
+<wire x1="-13.97" y1="5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="3.81" width="0.254" layer="94"/>
+<wire x1="12.7" y1="3.81" x2="15.24" y2="3.81" width="0.254" layer="94"/>
+<wire x1="15.24" y1="3.81" x2="15.24" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-3.81" x2="12.7" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-3.81" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="-13.97" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-13.97" y1="-5.08" x2="-13.97" y2="5.08" width="0.254" layer="94"/>
+<text x="-6.35" y="6.35" size="1.27" layer="95" ratio="10">&gt;name</text>
+<text x="-2.54" y="-7.62" size="1.27" layer="96" ratio="10">&gt;value</text>
+<pin name="COM1" x="8.89" y="10.16" length="middle" rot="R270"/>
+<pin name="R" x="3.81" y="10.16" length="middle" rot="R270"/>
+<pin name="RS" x="-8.89" y="10.16" length="middle" rot="R270"/>
+<pin name="LS" x="-11.43" y="-10.16" length="middle" rot="R90"/>
+<pin name="L" x="-6.35" y="-10.16" length="middle" rot="R90"/>
+<pin name="COM2" x="11.43" y="-10.16" length="middle" rot="R90"/>
+</symbol>
+<symbol name="APHB1608SYKSURKC_SECTION1">
+<wire x1="-2.54" y1="1.524" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.524" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="1.524" x2="0" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="2.032" x2="1.016" y2="4.064" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.032" x2="0" y2="4.064" width="0.254" layer="94"/>
+<text x="-8.651940625" y="4.834909375" size="1.272340625" layer="95">&gt;NAME</text>
+<text x="-8.645040625" y="-5.848109375" size="1.27133125" layer="96">&gt;VALUE</text>
+<pin name="Y_C" x="5.08" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="Y_A" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+<symbol name="APHB1608SYKSURKC_SECTION2">
+<wire x1="-2.54" y1="1.524" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.524" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="1.524" x2="0" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="2.032" x2="1.016" y2="4.064" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.032" x2="0" y2="4.064" width="0.254" layer="94"/>
+<text x="-8.63908125" y="4.82771875" size="1.27045" layer="95">&gt;NAME</text>
+<text x="-8.650509375" y="-5.85181875" size="1.27213125" layer="96">&gt;VALUE</text>
+<pin name="R_C" x="5.08" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="R_A" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SX70_S-PAD">
@@ -2032,8 +2303,8 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <connect gate="G$1" pin="MOTOR+" pad="MOTOR+"/>
 <connect gate="G$1" pin="S3" pad="S3"/>
 <connect gate="G$1" pin="S5" pad="S5"/>
-<connect gate="G$1" pin="S8" pad="S8"/>
-<connect gate="G$1" pin="S9" pad="S9"/>
+<connect gate="G$1" pin="S8" pad="S9"/>
+<connect gate="G$1" pin="S9" pad="S8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2326,11 +2597,11 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <gate name="G$1" symbol="SX70-SONAR-PADS" x="45.72" y="-5.08"/>
 </gates>
 <devices>
-<device name="" package="SX70-SONAR-PAD">
+<device name="" package="SONAR-FLASHFLEX">
 <connects>
-<connect gate="G$1" pin="-" pad="-"/>
-<connect gate="G$1" pin="F1" pad="F1"/>
+<connect gate="G$1" pin="-" pad="GND"/>
 <connect gate="G$1" pin="FF" pad="FF"/>
+<connect gate="G$1" pin="FT" pad="FT"/>
 <connect gate="G$1" pin="GTD" pad="GTD"/>
 <connect gate="G$1" pin="S1F" pad="S1F"/>
 <connect gate="G$1" pin="S1T" pad="S1T"/>
@@ -2873,10 +3144,195 @@ Source: murata.co.jp</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="CTS221AMX16">
+<gates>
+<gate name="G$1" symbol="SW_4POS" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="CTS221AMX16">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C" pad="C C2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AUDIO-JACK-6P-SMD(ST-PJ-312)" prefix="J" uservalue="yes">
+<description>320040007</description>
+<gates>
+<gate name="G$1" symbol="AUDIO-JACK-6P-SMD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AUDIO6P-SMD-3.5-14.0X6.4X5.0MM">
+<connects>
+<connect gate="G$1" pin="COM1" pad="COM1"/>
+<connect gate="G$1" pin="COM2" pad="COM2"/>
+<connect gate="G$1" pin="L" pad="L"/>
+<connect gate="G$1" pin="LS" pad="LS"/>
+<connect gate="G$1" pin="R" pad="R"/>
+<connect gate="G$1" pin="RS" pad="RS"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33141/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="ST-PJ-312" constant="no"/>
+<attribute name="VALUE" value="ST-PJ-312"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SX70-7-PAD-HOLES">
+<gates>
+<gate name="G$1" symbol="SX70-7-PAD-SYMBOL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SX70-7-PAD-HOLES">
+<connects>
+<connect gate="G$1" pin="6V" pad="VCC-6V"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MOTOR+" pad="MOTOR+"/>
+<connect gate="G$1" pin="S3" pad="S3"/>
+<connect gate="G$1" pin="S5" pad="S5"/>
+<connect gate="G$1" pin="S8" pad="S9"/>
+<connect gate="G$1" pin="S9" pad="S8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SX70-7-PAD-HOLES-PROPER">
+<gates>
+<gate name="G$1" symbol="SX70-7-PAD-SYMBOL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SX70-7-PAD-PROPER-HOLES2">
+<connects>
+<connect gate="G$1" pin="6V" pad="VCC"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MOTOR+" pad="MOTOR"/>
+<connect gate="G$1" pin="S3" pad="S3"/>
+<connect gate="G$1" pin="S5" pad="S5"/>
+<connect gate="G$1" pin="S8" pad="S8"/>
+<connect gate="G$1" pin="S9" pad="S9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DUAL-LED-0603" prefix="D">
+<description>Led; 3mm White High-Intensity Led</description>
+<gates>
+<gate name="G$1" symbol="APHB1608SYKSURKC_SECTION1" x="0" y="12.7"/>
+<gate name="G$2" symbol="APHB1608SYKSURKC_SECTION2" x="0" y="-2.54" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="LED_APHB1608SYKSURKC">
+<connects>
+<connect gate="G$1" pin="Y_A" pad="1"/>
+<connect gate="G$1" pin="Y_C" pad="2"/>
+<connect gate="G$2" pin="R_A" pad="3"/>
+<connect gate="G$2" pin="R_C" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" Surface Mount LED; Size : 1.6X0.8mm _0603_; Color: Green / Yellow; Lens: Water Clear "/>
+<attribute name="MF" value="Kingbright"/>
+<attribute name="MP" value="APHB1608SYKSURKC"/>
+<attribute name="PACKAGE" value="0603 Kingbright"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SX70-SONAR-FLASHFLEX-HOLES">
+<gates>
+<gate name="G$1" symbol="SX70-SONAR-PADS" x="43.18" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="SONAR-FLASHFLEX-HOLES">
+<connects>
+<connect gate="G$1" pin="-" pad="GND"/>
+<connect gate="G$1" pin="FF" pad="FF"/>
+<connect gate="G$1" pin="FT" pad="FT"/>
+<connect gate="G$1" pin="GTD" pad="GTD"/>
+<connect gate="G$1" pin="S1F" pad="S1F"/>
+<connect gate="G$1" pin="S1T" pad="S1T"/>
+<connect gate="G$1" pin="S2" pad="S2"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SX70-SONAR-PAD-HOLES">
+<gates>
+<gate name="G$1" symbol="SX70-SONAR-PADS" x="45.72" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="SX70-SONAR-PAD">
+<connects>
+<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="G$1" pin="FF" pad="FF"/>
+<connect gate="G$1" pin="FT" pad="F1"/>
+<connect gate="G$1" pin="GTD" pad="GTD"/>
+<connect gate="G$1" pin="S1F" pad="S1F"/>
+<connect gate="G$1" pin="S1T" pad="S1T"/>
+<connect gate="G$1" pin="S2" pad="S2"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SX70-SONAR-FLASHFLEX">
+<gates>
+<gate name="G$1" symbol="SX70-SONAR-PADS" x="43.18" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="SONAR-FLASHFLEX">
+<connects>
+<connect gate="G$1" pin="-" pad="GND"/>
+<connect gate="G$1" pin="FF" pad="FF"/>
+<connect gate="G$1" pin="FT" pad="FT"/>
+<connect gate="G$1" pin="GTD" pad="GTD"/>
+<connect gate="G$1" pin="S1F" pad="S1F"/>
+<connect gate="G$1" pin="S1T" pad="S1T"/>
+<connect gate="G$1" pin="S2" pad="S2"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
