@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="4" number="39" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="4" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="0" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="0" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="AMS_TSL237T_0">
+                    <description>AMS-TSL23XT-T-4</description>
+                    <wire layer="51" y2="1.3" width="0.1" x2="1.902" y1="1.3" x1="-1.898"/>
+                    <wire layer="51" y2="1.3" width="0.1" x2="-1.898" y1="-1.3" x1="-1.898"/>
+                    <wire layer="51" y2="-1.3" width="0.1" x2="1.902" y1="-1.3" x1="-1.898"/>
+                    <wire layer="51" y2="1.3" width="0.1" x2="1.902" y1="-1.3" x1="1.902"/>
+                    <wire layer="21" y2="-1.295" width="0.15" x2="0.5" y1="-1.295" x1="-0.5"/>
+                    <wire layer="21" y2="1.295" width="0.15" x2="0.5" y1="1.295" x1="-0.5"/>
+                    <wire layer="39" y2="1.4" width="0.1" x2="-1.998" y1="-1.4" x1="-1.998"/>
+                    <wire layer="39" y2="1.4" width="0.1" x2="2.002" y1="1.4" x1="-1.998"/>
+                    <wire layer="39" y2="-1.4" width="0.1" x2="2.002" y1="1.4" x1="2.002"/>
+                    <wire layer="39" y2="-1.4" width="0.1" x2="-1.998" y1="-1.4" x1="2.002"/>
+                    <text layer="25" align="bottom-left" y="1.7" x="-2.998" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="1.65" x="-1.448" layer="21" radius="0.05" width="0.1"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="0.9" dy="1.0" y="0.75" x="-1.448" rot="R180" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="0" dx="0.9" dy="1.0" y="0.75" x="1.452" rot="R180" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="0" dx="0.9" dy="1.0" y="-0.75" x="1.452" rot="R180" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="0.9" dy="1.0" y="-0.75" x="-1.448" rot="R180" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="AMS_TSL237T_0_0">
+                    <description>AMS-TSL23XT-T-4</description>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="0.0" y1="-15.24" x1="0.0"/>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="15.24" y1="-5.08" x1="0.0"/>
+                    <wire layer="94" y2="-15.24" width="0.508" x2="15.24" y1="-5.08" x1="15.24"/>
+                    <wire layer="94" y2="-15.24" width="0.508" x2="0.0" y1="-15.24" x1="15.24"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="0.0" y1="-7.62" x1="0.0"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="15.24" y1="-12.7" x1="15.24"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="0.0" y1="-12.7" x1="0.0"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="15.24" y1="-7.62" x1="15.24"/>
+                    <text layer="95" align="top-left" y="-2.54" x="0.0" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-20.32" x="0.0" rot="R0" size="2.54">TSL237T</text>
+                    <pin direction="in" name="!OE!" visible="both" length="middle" y="-7.62" x="-5.08"/>
+                    <pin direction="pwr" name="GND" visible="both" length="middle" y="-12.7" x="20.32" rot="R180"/>
+                    <pin direction="pwr" name="VDD" visible="both" length="middle" y="-12.7" x="-5.08"/>
+                    <pin direction="hiz" name="OUT" visible="both" length="middle" y="-7.62" x="20.32" rot="R180"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="U" name="AMS_TSL237T">
+                    <description>AMS-TSL23XT-T-4</description>
+                    <gates>
+                        <gate name="G$0" symbol="AMS_TSL237T_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="AMS_TSL237T_0_0" package="AMS_TSL237T_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="!OE!"/>
+                                <connect gate="G$0" pad="2" pin="GND"/>
+                                <connect gate="G$0" pad="3" pin="VDD"/>
+                                <connect gate="G$0" pad="4" pin="OUT"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="ciiva_ids" value="2153199"/>
+                                    <attribute name="Package_Version" value="TAOS055J, 12/2007"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="vault_guid" value="1F7B7DA5-F3A1-4381-A25D-E9DBB1E22152"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="MPN" value="TSL237T"/>
+                                    <attribute name="Output_Frequency_Tolerances" value="20"/>
+                                    <attribute name="Component_Link_1_URL" value="www.ams.com"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="Responsivity_HzuWcm" value="1200 @ 640"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="import_ts" value="1521842660"/>
+                                    <attribute name="Datasheet_Version" value="TAOS055J"/>
+                                    <attribute name="Package_Description" value="4-Pin Surface Mount Device, 3.8 x 2.6 mm Body, 1.5 mm Pitch"/>
+                                    <attribute name="datasheet" value="http://www.ams.com/eng/content/download/250253/975957/143775"/>
+                                    <attribute name="vault_revision" value="ADD72C77-C3B6-428A-8C04-EBF0E744FA54"/>
+                                    <attribute name="Output_Frequency_MHz" value="1"/>
+                                    <attribute name="footprint_variant_name_0" value="Manufacturer Recommended"/>
+                                    <attribute name="release_date" value="1394513894"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="MF" value="AMS"/>
+                                    <attribute name="Supply_Voltage_V" value="2.7-5.5"/>
+                                    <attribute name="package" value="T-4"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
